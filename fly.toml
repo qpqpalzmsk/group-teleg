@@ -1,0 +1,6 @@
+app = "tele-hong-0"
+
+[build]
+dockerfile = "./Dockerfile"
+
+[check]
