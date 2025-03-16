@@ -66,8 +66,8 @@ async def main():
             print(f'[!] 초대 링크가 만료되었습니다. (링크: {link}) 다음 그룹으로 넘어갑니다.')
             continue
 
-        except InviteHashInvalidError:
             # 초대 링크가 잘못된 경우
+        except InviteHashInvalidError:
             print(f'[!] 초대 링크가 유효하지 않습니다. (링크: {link}) 다음 그룹으로 넘어갑니다.')
             continue
 
