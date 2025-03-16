@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # 실행 명령어
-CMD ["python", "bot.py"]
+CMD ["python", "main.py"]
